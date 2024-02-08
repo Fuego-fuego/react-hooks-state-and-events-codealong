@@ -189,7 +189,7 @@ In this case, we **can** compute it based on other state in our component, so we
 don't need to add any _new_ state for this feature.
 
 We can use that same `isOn` state variable, along with some conditional
-rendering, to get the button to display the correct border color:
+rendering, to get the button to display the correct background color:
 
 ```jsx
 function Toggle() {
